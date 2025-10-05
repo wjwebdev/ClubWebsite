@@ -102,7 +102,7 @@ body {
     background-color: var(--grey-color);
     height: 60vh; 
     width: 100%; 
-    background-image: url('/resources/images/background.jpg');
+    background-image: url('../resources/images/background.jpg');
     background-size: cover; 
     background-position-y: center;
 
@@ -266,7 +266,7 @@ body {
 }
 /*JOIN SECTION STYLING*/ 
 .join-section {
-    background-image: url('/resources/images/code.jpg');
+    background-image: url('../resources/images/code.jpg');
     background-size: cover; 
     height: 92vh; 
     width: 100%; 
@@ -407,4 +407,5 @@ option:hover{
     text-align: center; 
     color: var(--txt-color);
     font-weight: bold; 
+
 }
