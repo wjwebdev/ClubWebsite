@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stevenage Code Club | Welcome</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-navigation">
+        <div class="logo-brand">
+            <a href="index.html">Stevenage Code Club &lt;/&gt;</a>
+        </div>
+            <ul class="menu-list">
+                <li><a class="nav-links" href="index.html">Home</a></li>
+                <li><a class="nav-links" href="#session">Classes</a></li>
+                <li><a class="nav-links" href="#join">Join us</a></li>
+             </ul>
+    </nav>
+    <header class="main-header">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-info">
+                <h1>Stevenage Code Club</h1>
+                <p>Together we can learn and build the future of tomorrow.</p>
+                <a class="btn" href="#session">Learn More</a>
+            </div>
+        </div>
+    </header>
+    <section class="classes" id="session">
+       <div class="container">
+            <h2 class="sub-heading">Code Classes</h2>
+            <div class="class-section">
+                <div class="class-box">
+                    <div class="header">
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="class-info">
+                        <p>Learn how to build websites with HTML & CSS, once you're able to build a static responsive website, you'll move onto JavaScript to add interactivity to your pages. There will be opportunities to work on a number of different projects during these classes at the end of the projects you'll be able to present your work to club members for feedback. </p>
+                         <div class="btn-area">
+                            <a href="#join" class="register-btn">Register</a>
+                        </div>  
+                    </div>
+                </div>
+                 <div class="class-box">
+                    <div class="header">
+                        <h3>Game Development</h3>
+                    </div>
+                    <div class="class-info">
+                        <p>We start off building a game in Scratch which has a drag and drop code area to make it easier for people to learn the basics of programming. Once members build their first game in Scratch, they'll be a choice to use either GameMaker Studio 2 or Godot which are both popular game enginesthat have a lot of available resources to learn online.</p>
+                         <div class="btn-area">
+                             <a href="#join" class="register-btn">Register</a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="class-box">
+                    <div class="header">
+                        <h3>Mobile App Development</h3>
+                    </div>
+                    <div class="class-info">
+                        <p>If you have ever wanted to build your own mobile app or have an idea that you want to build then our mobile app development classes are for you. Compared to the other two classes, we have a different structure for mobile development. Firstly we begin discussing the UI/UX design process then move onto development using Android Dev kit. </p>
+                        <div class="btn-area">
+                            <a href="#join" class="register-btn">Register</a>
+                        </div>  
+                    </div>  
+                </div>
+            </div>
+       </div>
+    </section>
+    <section class="join-section" id="join">
+        <div class="join-overlay"></div>
+        <div class="container">
+            <div class="form-box">
+            <form action="#">
+                <div class="form-group">
+                    <label for="full-name">Full Name: </label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Enter Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" placeholder="Confirm Age" name="age" min="12" max="100" required>
+                </div>
+                  <div class="form-group">
+                    <label for="class">Select Class:</label>
+                    <select id="class" name="class">
+                        <option>Please Select Option</option>
+                        <option value="WebDevelopment">Web Development</option>
+                        <option value="GameDevelopment">Game Development</option>
+                        <option value="MobileDevelopment">Mobile App Development</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                 <textarea id="message" name="message" placeholder="Enter Message" rows="7"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="join-info">
+                <h2>JOIN US TODAY!</h2>
+                <p>We welcome all to join, please fill out the registration form and we'll get back to you shortly to confirm your membership with us! If you have any additional questions please ask them in the messsage box.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <p class="footer-text">Stevenage Code Club &copy; 2025</p>
+    </footer>
+</body>
+</html>
